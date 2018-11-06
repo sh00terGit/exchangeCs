@@ -25,14 +25,14 @@ namespace Shipul.SqlConn
                 case "bufull":
                      datasource = @"10.4.100.37";
                      database = "profiserv";
-                     username = "sysop";
-                     password = "1";
+                     username = "";
+                     password = "";
                     break;
                 case "safn":
                      datasource = @"10.4.100.49";
                      database = "NAR";
-                     username = "razuv";
-                     password = "2";
+                     username = "";
+                     password = "";
                      break;
                 default :
                      Shipul.FileOperations.saveException(new Exception("сервер указан неверно"));
